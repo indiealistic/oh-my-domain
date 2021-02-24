@@ -4,10 +4,10 @@ import DomainVerifiedBadge from "../components/DomainVerifedBadge";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 
 // EDIT STARTS HERE:
-const domainName = "oh-my-domain.vercel.app";
+const domainName = "ohmydomain.vercel.app";
 const domainPrice = "$120";
 
-const whoislink = "https://whois.inet.vn/whois?domain=vercel.app";
+const whoislink = "https://www.iana.org/whois?q=vercel.com";
 const domainRegisterName = "Vercel";
 const domainRegisterLink = "https://vercel.com";
 

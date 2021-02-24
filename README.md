@@ -1,34 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Use
 
-## Getting Started
+1. Click **Use this template** button to clone this template into your repositories.
 
-First, run the development server:
+2. Go to **Pages**/index.js to custom your information. You will see the customize section like this:
 
-```bash
-npm run dev
-# or
-yarn dev
 ```
+// EDIT STARTS HERE:
+const domainName = "ohmydomain.vercel.app";
+const domainPrice = "$120";
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+const whoislink = "https://www.iana.org/whois?q=vercel.com";
+const domainRegisterName = "Vercel";
+const domainRegisterLink = "https://vercel.com";
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+const domainOwner = "Indiealistic";
+const ownerlink = "https://indiealistic.studio";
+const contactlink = "mailto:hey@indiealistic.studio?subject=DOMAIN%20ASKING";
+// END
+```
+<details>
+<summary>Let me explain the detail</summary>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### domainName
+```const domainName = "ohmydomain.vercel.app";```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Edit ```ohmydomain.vercel.app``` to your domain.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### domainPrice
+```const domainPrice = "$120";```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit ```$120``` to the price you want.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### whoislink
+```const whoislink = "https://www.iana.org/whois?q=vercel.com";```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Edit ```https://www.iana.org/whois?q=vercel.com``` to any whois website that you want.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### domainRegisterName
+```const domainRegisterName = "Vercel";```
+
+Edit ```Vercel``` to the name of domain register that you using to let the user know.
+
+
+### domainRegisterLink
+```const domainRegisterLink = "https://vercel.com";```
+
+Edit ```https://vercel.com``` to the website link of register.
+
+
+### domainOwner
+```const domainOwner = "Indiealistic";```
+
+Edit ```Indiealistic``` to your name or anyone else if you want.
+
+
+### ownerlink
+```const ownerlink = "https://indiealistic.studio";```
+
+Change ```https://indiealistic.studio``` to the website link of the domain owner
+
+
+### contactlink
+```const contactlink = "mailto:hey@indiealistic.studio?subject=DOMAIN%20ASKING";```
+
+Edit ```mailto:hey@indiealistic.studio?subject=DOMAIN%20ASKING``` to the url that you want. I am using ```mailto:``` link because this will automatically redirect user to their email appication (very good UX if you don't want to use form submit). 
+
+Recommendation: You could use [MailToMe](https://mailtolink.me/) to design your email template. This tool will generate it into an url ```mailto:...``` and you just need to copy it.
+</details>
+
+3. Deploy it to [Vercel](https://vercel.com) or anywhere else you want.
